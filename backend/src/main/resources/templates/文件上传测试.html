@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文件上传测试</title>
+</head>
+<body>
+<h1>文件上传测试</h1>
+<form action="http://localhost:31091/file/upload" method="post" enctype="multipart/form-data">
+    <label for="file">选择文件：</label>
+    <input type="file" id="file" name="file">
+
+    <label for="user">用户信息：</label>
+    <input type="text" id="user" name="user" placeholder="输入用户信息">
+
+    <button type="submit">上传文件</button>
+</form>
+</body>
+</html>
